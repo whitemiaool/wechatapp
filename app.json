@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/declare/none"    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "西部智谷实验室",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "red",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "img/1.png",
+      "selectedIconPath": "img/1-s.png"
+    },{
+      "pagePath": "pages/declare/none",
+      "text": "宣言",
+      "iconPath": "img/2.png",
+      "selectedIconPath": "img/2-s.png"
+    }]
+  }
+
+}

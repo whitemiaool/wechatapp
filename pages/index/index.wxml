@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button bindtap="add"> +1 s </button>
+  </view>
+  <view class="usermotto">
+    <text class="{{loading?'':'hide'}}">寿命加载中...</text>
+    <text class="user-motto {{!loading?'':'hide'}}">您总共点击了Elder <text class='seconds'>{{motto}}</text>S，再接再厉！</text>
+  </view>
+</view>

@@ -1,0 +1,4 @@
+<!--pages/no/none.wxml-->
+<view class="dec-text {{test?'test':''}}">
+  <text >文明++，从我做起</text>
+</view>
